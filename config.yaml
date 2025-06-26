@@ -1,0 +1,18 @@
+```yaml
+
+# Dataset settings
+dataset:
+  data_dir: "dataset"
+  img_height: 256    
+  img_width: 256   
+
+# Model settings
+model:
+  batch_size: 16       
+  epochs: 20           
+  model_save_path: "trash_segmentation_model.h5"  
+
+# Inference settings
+inference:
+  output_mask_path: "predicted_mask.png"  # Path to save sample predicted mask
+```
