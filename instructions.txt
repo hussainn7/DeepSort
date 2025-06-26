@@ -1,0 +1,9 @@
+This Python script implements a U-Net model using TensorFlow/Keras for trash segmentation in images. It processes a dataset of images and corresponding binary masks to train a model that identifies trash regions, saving the trained model and a sample predicted mask.
+
+Requirements
+
+Python 3.x
+TensorFlow/Keras
+NumPy
+OpenCV (cv2)
+scikit-learn
